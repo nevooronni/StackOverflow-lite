@@ -19,6 +19,7 @@ These instructions will get you a copy of the project up and running on your loc
 ## Built with
 * HTMl5
 * CSS3
+* JS
 
 ## Author
 **Neville Oronni**
