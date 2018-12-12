@@ -2,7 +2,7 @@
 
 ## Description
 
-StackOverflow-lite is a platform where people can ask questions and provide answers. This is the gh-pages branch version of app. All feature pull requests are to this branch and all merges occure here.
+StackOverflow-lite is a platform where people can ask questions and provide answers. All feature pull requests are to intiated for the gh-pages branch and all merges occure there.
 
 ## Getting Started
 
