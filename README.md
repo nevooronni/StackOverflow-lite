@@ -4,7 +4,7 @@
 
 StackOverflow-lite is a platform where people can ask questions and provide answers. This is the gh-pages branch version of app. All feature pull requests are to this branch and all merges occure here.
 
-#Getting Started
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
