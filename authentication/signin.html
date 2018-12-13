@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <!--This meta tag is for device responsiveness-->
     <meta nanme="viewport" content="width=device=width, initial-scale=1.0">
-    <title>sign up</title> 
+    <title>Sign In</title> 
 
     <!--Googel fonts-->
     <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
@@ -14,31 +14,26 @@
 
     <!--custom stylesheet-->
     <link href="../css/authentication/signup.css" rel="stylesheet" type="text/css">
+    <link href="../css/authentication/signin.css" rel="stylesheet" type="text/css">
   </head>
   <body >
-    <div id="form">
-      <form action="#" style="border: 0.5px solid #ccc; width: 50%; padding-top: 0px; background-color: #ffffff;">
+    <div id="form2">
+      <form action="#" style="border: 0.5px solid #ccc; width: 50%; padding-top: 0px; background-color: #ffffff; border-radius: 5px; margin-top: 10%">
         <div class="signingheader">
-          <h1 class="header">Sign Up</h1>
+          <h1 class="header">Sign In</h1>
         </div>
         <div class="container">
           
           <label for="email"><b class="label">Username</b><b class="label2">*</b></label>
           <input type="text" placeholder="Enter Username" name="email" required>
-
-          <label for="email"><b class="label">Email</b><b class="label2">*</b></label>
-          <input type="text" placeholder="Enter Email" name="email" required>
         
           <label for="psw"><b class="label">Password</b><b class="label2">*</b></label>
           <input type="password" placeholder="Enter Password" name="psw" required>
-        
-          <label for="psw-repeat"><b class="label">Confirm Password</b><b class="label2">*</b></label>
-          <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
 
           <div class="clearfix">
-            <a href="../index.html"><button type="submit" class="signupbtn">Sign Up</button></a>
+            <a href="../index.html"><button type="submit" class="signupbtn">Sign In</button></a>
           </div>
-          <a href="signin.html" id="signin"><p id="signin">Have an account? <span id="inner">Sign in Now</span></p></a>
+          <a href="signup.html" id="signup"><p id="signin">Don't have an account? <span id="inner">Sign Up Here</span></p> </a>
         </div>
       </form>  
     </div>
