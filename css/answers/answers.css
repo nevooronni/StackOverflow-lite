@@ -2,14 +2,14 @@
   float: left;
   width: 20.3%;
   padding: 10px;
-  height: 970px; 
+  height: 1170px; 
 }
 
 .column32 {
   float: left;
   width: 23.7%;
   padding: 10px;
-  height: 970px;
+  height: 1170px;
 }
 
 .question-answer {
@@ -17,3 +17,45 @@
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+.answertag {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.tags2 {
+  background-color: transparent;
+  border: 1px solid #7c7f85;
+  height: 50px; 
+  padding: 5px 7px 5px 7px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-right: 3px;
+  opacity: 0.5;
+  border-radius: 4px;
+}
+
+.tags2:hover {
+  background-color: #2d6ff7;
+  opacity: 1;
+  color: #ffffff;
+}
+
+
+#star {
+  float: right;
+  top: 0px;
+  right: 40px;
+  color: grey;
+  font-size: 28px;
+  margin-right: 50px;
+  margin-top: -10px;
+
+}
+
+#star:hover {
+  color: #2d6ff7;
+  cursor: pointer;
+}
+
+
