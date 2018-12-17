@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <!--This meta tag is for device responsiveness-->
+    <meta nanme="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Ask Question</title> 
+
+    <!--Googel fonts-->
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+
+    <!--custom stylesheet-->
+    <link href="../css/authentication/signup.css" rel="stylesheet" type="text/css">
+    <link href="../css/questions/postquestions.css" rel="stylesheet" type="text/css">
+  </head>
+  <body >
+    <div id="form2">
+      <form action="#" style="border: 0.5px solid #ccc; width: 50%; padding-top: 0px; margin-top: 50px; background-color: #ffffff;">
+        <div class="signingheader">
+          <h1 class="header">Ask A Question</h1>
+        </div>
+        <div class="container">
+          
+          <label for="title"><b class="label">Question Title</b><b class="label2">*</b></label>
+          <input type="text" placeholder="" name="title" required>
+
+          <label for="Category"><b class="label">Category</b><b class="label2">*</b></label>
+          <select name="Category" id="category" required>
+            <option value="Select a Category">Select a Category</option>
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+            <option value="Deployment">Deployment</option>
+          </select>
+          
+          <label for="tags"><b class="label">Tags</b></label>
+          <input type="text" placeholder="" name="tags">
+
+          <label for="image"><b class="label">Featured image</b></label>
+          <input type="file" placeholder="Select file" name="image" accept="image/*" id="category">
+
+          <label for="details"><b class="label">Details</b><b class="label2">*</b></label>
+          <textarea name="details" id="details" required>
+          </textarea>
+
+
+
+          <div class="clearfix">
+            <a href="../index.html"><button type="submit" class="signupbtn">Post Your Question</button></a>
+          </div>
+        </div>
+      </form>  
+    </div>
+  </body>
+</html>

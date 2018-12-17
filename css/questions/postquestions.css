@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+#details {
+  height:200px; 
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+#details:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+#category {
+  height:auto; 
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  color: grey;
+}
+
+
+#category:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+#form2 {
+  padding-top: 3%;
+  padding-left: 30%;
+  padding-bottom: 5%;
+  height: 100%;
+  background-image: url("../../img/landingpage/phone.jpg");
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
