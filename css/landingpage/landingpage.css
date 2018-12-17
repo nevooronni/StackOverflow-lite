@@ -272,4 +272,6 @@ body {
 
 .buttondetails {
   margin-bottom: 45px;
+  height: auto;
+  padding-top: 27px;
 }
