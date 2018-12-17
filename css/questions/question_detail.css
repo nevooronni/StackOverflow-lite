@@ -1,0 +1,18 @@
+.answer2 {
+  border-style: none;
+  float: right;
+  top: 0px;
+  right: 40px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color:#272930;
+  height: 40px; 
+  width: 95px;
+  margin-right: 50px;
+  border-radius: 4px;
+}
+
+.answer2:hover {
+  background-color: #de2b2b;
+  cursor: pointer;
+}

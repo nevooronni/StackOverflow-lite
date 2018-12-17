@@ -59,6 +59,7 @@ body {
 
 #signin:hover {
   background-color: #de2b2b;
+  cursor: pointer;
 }
 
 #signup {
@@ -74,6 +75,7 @@ body {
 
 #signup:hover {
   background-color: #de2b2b;
+  cursor: pointer;
 }
 
 #anchorbutton {
@@ -141,6 +143,15 @@ body {
 .info {
   margin-left: 25%;
   margin-bottom: 15%;
+  cursor: pointer
+}
+
+.info:hover {
+  color: #2d6ff7;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .row:after {
@@ -180,6 +191,10 @@ body {
   background-color: #ffffff;
   padding: 10px 5px 5px 20px;
   height: 200px;  
+}
+
+.link {
+  color: #000;
 }
 
 .info2 {
