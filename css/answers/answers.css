@@ -1,0 +1,19 @@
+.column12 {
+  float: left;
+  width: 20.3%;
+  padding: 10px;
+  height: 970px; 
+}
+
+.column32 {
+  float: left;
+  width: 23.7%;
+  padding: 10px;
+  height: 970px;
+}
+
+.question-answer {
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
