@@ -123,27 +123,27 @@ body {
   float: left;
   width: 20.3%;
   padding: 10px;
-  height: 600px; 
+  height: 700px; 
 }
 
 .column2 {
   float: left;
   width: 56%;
   padding: 10px;
-  height: 500px;
+  height: 720px;
 }
 
 .column3 {
   float: left;
   width: 23.7%;
   padding: 10px;
-  height: 600px; 
+  height: 720px; 
 }
 
 .info {
   margin-left: 25%;
   margin-bottom: 15%;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .info:hover {
@@ -152,6 +152,9 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.link:hover {
 }
 
 .row:after {
@@ -248,6 +251,7 @@ body {
 
 .answer:hover {
   background-color: #2d6ff7;
+  cursor: pointer;
 }
 
 
