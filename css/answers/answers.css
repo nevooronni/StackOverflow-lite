@@ -2,15 +2,30 @@
   float: left;
   width: 20.3%;
   padding: 10px;
-  height: 1170px; 
+  height: 1400px; 
 }
 
 .column32 {
   float: left;
   width: 23.7%;
   padding: 10px;
-  height: 1170px;
+  height: 1400px;
 }
+
+.column123 {
+  float: left;
+  width: 20.3%;
+  padding: 10px;
+  height: 800px; 
+}
+
+.column323 {
+  float: left;
+  width: 23.7%;
+  padding: 10px;
+  height: 800px;
+}
+
 
 .question-answer {
   padding-left: 50px;
@@ -58,4 +73,56 @@
   cursor: pointer;
 }
 
+#form3 {
+  width: 100%;
+  padding: 3% 3%;
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+.info4 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.postquestion5 {
+  background-color: #2d6ff7;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 8px; 
+  margin-left: 25%;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  border-radius: 4px;
+}
+
+#signup4 {
+  margin-right: 2px;
+  background-color: #2d6ff7;
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
+  border-style: none;
+  border-radius: 4px;
+}
+
+.label {
+  color: #7c7f85;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
 
